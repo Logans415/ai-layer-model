@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+<title id="title">AI Layer Model by Logan Smith</title>
+<desc id="desc">Nine runtime responsibilities in Substrate, Cognition and Systems, with cross-cutting controls.</desc>
+<metadata>Copyright 2026 Logan Smith. CC BY 4.0. https://github.com/Logans415/ai-layer-model. Model 0.4.0.</metadata>
+<rect width="1200" height="840" fill="#faf8f2"/>
+<text x="64" y="70" font-family="Arial,sans-serif" font-size="38" fill="#293535">AI Layer Model</text>
+<text x="64" y="112" font-family="Arial,sans-serif" font-size="21" fill="#697574">Logan Smith · Version 0.4.0</text>
+<rect x="252" y="164" width="638" height="54" fill="#e5ebdd"/>
+<text x="270" y="200" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L9</text>
+<text x="335" y="200" font-family="Arial,sans-serif" font-size="24" fill="#293535">Interface / delivery</text>
+<rect x="252" y="223" width="638" height="54" fill="#e5ebdd"/>
+<text x="270" y="259" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L8</text>
+<text x="335" y="259" font-family="Arial,sans-serif" font-size="24" fill="#293535">Orchestration</text>
+<rect x="252" y="282" width="638" height="54" fill="#e5ebdd"/>
+<text x="270" y="318" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L7</text>
+<text x="335" y="318" font-family="Arial,sans-serif" font-size="24" fill="#293535">Agentic control loop</text>
+<rect x="252" y="341" width="638" height="54" fill="#e2efec"/>
+<text x="270" y="377" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L6</text>
+<text x="335" y="377" font-family="Arial,sans-serif" font-size="24" fill="#293535">Tools / capabilities</text>
+<rect x="252" y="400" width="638" height="54" fill="#e2efec"/>
+<text x="270" y="436" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L5</text>
+<text x="335" y="436" font-family="Arial,sans-serif" font-size="24" fill="#293535">Context / memory</text>
+<rect x="252" y="459" width="638" height="54" fill="#e2efec"/>
+<text x="270" y="495" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L4</text>
+<text x="335" y="495" font-family="Arial,sans-serif" font-size="24" fill="#293535">Inference strategy / reasoning</text>
+<rect x="252" y="518" width="638" height="54" fill="#e2efec"/>
+<text x="270" y="554" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L3</text>
+<text x="335" y="554" font-family="Arial,sans-serif" font-size="24" fill="#293535">Model</text>
+<rect x="252" y="577" width="638" height="54" fill="#f1e0d3"/>
+<text x="270" y="613" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L2</text>
+<text x="335" y="613" font-family="Arial,sans-serif" font-size="24" fill="#293535">Runtime / inference engine</text>
+<rect x="252" y="636" width="638" height="54" fill="#f1e0d3"/>
+<text x="270" y="672" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L1</text>
+<text x="335" y="672" font-family="Arial,sans-serif" font-size="24" fill="#293535">Hardware / compute</text>
+<text x="64" y="252" font-family="Arial,sans-serif" font-size="25" fill="#256a68">Systems</text>
+<text x="64" y="459" font-family="Arial,sans-serif" font-size="25" fill="#256a68">Cognition</text>
+<text x="64" y="636" font-family="Arial,sans-serif" font-size="25" fill="#256a68">Substrate</text>
+<text x="928" y="230" font-family="Arial,sans-serif" font-size="20" fill="#697574">Governance</text>
+<text x="928" y="284" font-family="Arial,sans-serif" font-size="20" fill="#697574">Identity / authorization</text>
+<text x="928" y="338" font-family="Arial,sans-serif" font-size="20" fill="#697574">Safety</text>
+<text x="928" y="392" font-family="Arial,sans-serif" font-size="20" fill="#697574">Evaluation</text>
+<text x="928" y="446" font-family="Arial,sans-serif" font-size="20" fill="#697574">Observability</text>
+<text x="928" y="500" font-family="Arial,sans-serif" font-size="20" fill="#697574">Resource limits</text>
+<text x="64" y="758" font-family="Arial,sans-serif" font-size="21" fill="#293535">Responsibilities can overlap. Products can span layers. Tasks can loop.</text>
+<text x="64" y="801" font-family="Arial,sans-serif" font-size="20" fill="#256a68">github.com/Logans415/ai-layer-model · CC BY 4.0</text>
+</svg>

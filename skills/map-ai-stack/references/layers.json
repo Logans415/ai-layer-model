@@ -1,0 +1,146 @@
+{
+  "name": "AI Layer Model",
+  "author": "Logan Smith",
+  "version": "0.4.0",
+  "canonical_url": "https://github.com/Logans415/ai-layer-model",
+  "license": "CC-BY-4.0",
+  "scope": "An OSI-inspired reference model of runtime responsibilities, not a literal OSI mapping or fixed execution pipeline.",
+  "planes": {
+    "Substrate": [
+      1,
+      2
+    ],
+    "Cognition": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "Systems": [
+      7,
+      8,
+      9
+    ]
+  },
+  "layers": [
+    {
+      "id": 1,
+      "name": "Hardware / compute",
+      "plane": "Substrate",
+      "responsibility": "Provide the physical capacity to execute work.",
+      "question": "What hardware runs it?",
+      "boundary": "Processors, accelerators, memory, storage and the physical execution environment."
+    },
+    {
+      "id": 2,
+      "name": "Runtime / inference engine",
+      "plane": "Substrate",
+      "responsibility": "Load, schedule, execute and serve a model.",
+      "question": "What loads and runs the model?",
+      "boundary": "Model loading, execution kernels, batching, scheduling and serving. A managed service still has these responsibilities."
+    },
+    {
+      "id": 3,
+      "name": "Model",
+      "plane": "Cognition",
+      "responsibility": "Provide the trained model capability.",
+      "question": "Which model is doing the work?",
+      "boundary": "The model architecture, weights and released artifact. A model call is an operation using the model, not the definition of this layer."
+    },
+    {
+      "id": 4,
+      "name": "Inference strategy / reasoning",
+      "plane": "Cognition",
+      "responsibility": "Shape how a model call is run.",
+      "question": "How are we using the model for this call?",
+      "boundary": "Supported decoding settings, prompting strategies and reasoning or output budgets. Capabilities depend on the selected model; reasoning capability can also be a property of L3."
+    },
+    {
+      "id": 5,
+      "name": "Context / memory",
+      "plane": "Cognition",
+      "responsibility": "Supply the information available to a model call.",
+      "question": "What information can it see?",
+      "boundary": "Instructions, conversation, retrieved content, returned tool results and relevant stored state. Persistent memory is optional."
+    },
+    {
+      "id": 6,
+      "name": "Tools / capabilities",
+      "plane": "Cognition",
+      "responsibility": "Expose capabilities a model-driven system can request.",
+      "question": "What can it request or do beyond generating text?",
+      "boundary": "Functions, APIs, retrieval, file operations and other capabilities. The tool is the capability; its returned information may become L5 context. Enforcement remains with the application and tool."
+    },
+    {
+      "id": 7,
+      "name": "Agentic control loop",
+      "plane": "Systems",
+      "responsibility": "Decide the next action, continuation and stop condition.",
+      "question": "What decides the next step or when to stop?",
+      "boundary": "Goal-directed control, observation, decisions and termination. This is one responsibility in an agent, not the entire assembled agent or its user interface."
+    },
+    {
+      "id": 8,
+      "name": "Orchestration",
+      "plane": "Systems",
+      "responsibility": "Coordinate distinct parts, models, agents or workstreams.",
+      "question": "What coordinates the work?",
+      "boundary": "Routing, delegation, workflow coordination, handoffs and shared-state coordination. Multiple agents are optional; distinguish coordination from a single control loop."
+    },
+    {
+      "id": 9,
+      "name": "Interface / delivery",
+      "plane": "Systems",
+      "responsibility": "Deliver the system and its results to people or other systems.",
+      "question": "How is the result used or delivered?",
+      "boundary": "Chat, application surfaces, client rendering, integrations and delivered endpoints. An endpoint may also expose L2 serving; inspect its actual responsibility."
+    }
+  ],
+  "cross_cutting": [
+    "Governance",
+    "Identity and authorization",
+    "Safety",
+    "Evaluation",
+    "Observability",
+    "Cost and resource limits"
+  ],
+  "build_companion": [
+    {
+      "id": "B1",
+      "name": "Compute"
+    },
+    {
+      "id": "B2",
+      "name": "Frameworks"
+    },
+    {
+      "id": "B3",
+      "name": "Data"
+    },
+    {
+      "id": "B4",
+      "name": "Pretraining"
+    },
+    {
+      "id": "B5",
+      "name": "Fine-tuning / alignment"
+    },
+    {
+      "id": "B6",
+      "name": "Evaluation"
+    },
+    {
+      "id": "B7",
+      "name": "Registry / release"
+    }
+  ],
+  "principles": [
+    "Place responsibilities rather than marketing labels.",
+    "Products, protocols and patterns can span layers.",
+    "Separate responsibilities owned by an item from dependencies and configured integrations.",
+    "Model calls and tasks can revisit components; numbers do not define execution order.",
+    "A typical tool-using agent composes multiple responsibilities; memory, tools and multi-agent coordination are not universally required.",
+    "Build and training work is a companion view; released model artifacts hand off to runtime L3.",
+    "A layer mapping identifies questions and control points; it is not a security certification."
+  ]
+}

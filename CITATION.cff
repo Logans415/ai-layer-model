@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite Logan Smith and the version of the AI Layer Model you used."
+title: "AI Layer Model"
+type: software
+authors:
+  - family-names: Smith
+    given-names: Logan
+version: 0.4.0
+repository-code: "https://github.com/Logans415/ai-layer-model"
+url: "https://github.com/Logans415/ai-layer-model"
+license:
+  - CC-BY-4.0
+  - MIT
+abstract: "An OSI-inspired reference model of AI system responsibilities, with a portable mapping skill."
+preferred-citation:
+  type: generic
+  title: "AI Layer Model"
+  authors:
+    - family-names: Smith
+      given-names: Logan
+  version: 0.4.0
+  url: "https://github.com/Logans415/ai-layer-model"
