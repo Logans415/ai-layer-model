@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Smith
     given-names: Logan
-version: 0.4.0
+version: 0.4.1
 date-released: '2026-10-20'
 repository-code: "https://github.com/Logans415/ai-layer-model"
 url: "https://github.com/Logans415/ai-layer-model"
@@ -19,5 +19,5 @@ preferred-citation:
   authors:
     - family-names: Smith
       given-names: Logan
-  version: 0.4.0
+  version: 0.4.1
   url: "https://github.com/Logans415/ai-layer-model"

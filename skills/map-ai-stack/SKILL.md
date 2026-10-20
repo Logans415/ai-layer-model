@@ -1,11 +1,11 @@
 ---
 name: map-ai-stack
-description: Place an AI tool, model, protocol, capability or assembled system on Logan Smith's AI Layer Model using its actual responsibilities and evidence. Use for stack placement and component comparisons, not as a security certification.
+description: Place an AI tool, model, protocol, capability or assembled system on the AI Layer Model using its actual responsibilities and evidence. Use for stack placement and component comparisons, not as a security certification.
 ---
 
 # Map an item to the AI Layer Model
 
-Skill instructions: MIT. Layer reference data: CC BY 4.0, Logan Smith. Model version 0.4.0; canonical source: https://github.com/Logans415/ai-layer-model.
+Skill instructions: MIT. Layer reference data: CC BY 4.0, Logan Smith. Model version 0.4.1; canonical source: https://github.com/Logans415/ai-layer-model.
 
 Read [references/layers.json](references/layers.json) before making placements. It defines the nine runtime layers, three planes, cross-cutting responsibilities and companion build/training view. Use that version consistently; distinguish an optional comparison with another framework from this model's placement.
 
@@ -37,4 +37,4 @@ Add security control points when requested or directly relevant: what informatio
 
 Use concise prose or a table. If structured JSON is requested, include `item`, `scope`, `model_version`, `primary`, `span`, `dependencies`, `cross_cutting`, `evidence`, `uncertainties` and `attribution`. In `span`, record layer, reason, evidence and confidence (`confirmed`, `conditional` or `unresolved`). Do not fabricate numerical confidence scores.
 
-Identify the reference used: “AI Layer Model 0.4.0, Logan Smith — https://github.com/Logans415/ai-layer-model.” This attributes the model, not any third-party product or conclusion to its author.
+Identify the reference used: “AI Layer Model 0.4.1, Logan Smith — https://github.com/Logans415/ai-layer-model.” This attributes the model, not any third-party product or conclusion to its author.

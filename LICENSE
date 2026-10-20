@@ -3,8 +3,8 @@ Copyright (c) 2026 Logan Smith
 This repository has two license scopes:
 
 1. Model prose, original diagrams, layer definitions, model JSON/reference data, examples, provenance and other authored write-ups are licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0). Full text: LICENSES/CC-BY-4.0.txt. License URL: https://creativecommons.org/licenses/by/4.0/
-2. Skill instructions (skills/map-ai-stack/SKILL.md and skills/map-ai-stack/agents/openai.yaml), prompts, scripts and workflow implementation code are licensed under MIT. Full text: LICENSES/MIT.txt.
+2. Skill instructions (skills/map-ai-stack/SKILL.md and skills/map-ai-stack/agents/openai.yaml), prompts, scripts, tests and workflow implementation code are licensed under MIT. Full text: LICENSES/MIT.txt.
 
 The layer reference at skills/map-ai-stack/references/layers.json remains CC-BY-4.0. Its placement inside the skill directory does not change its license. The skill folder contains both applicable notices for standalone distribution.
 
-Linked third-party websites, product names, publications and source material retain their own rights. No employer branding, third-party photographs or proprietary font files are included in this release.
+Linked third-party websites, product names, publications and source material retain their own rights.

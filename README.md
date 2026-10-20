@@ -2,7 +2,7 @@
 
 The AI Layer Model provides a shared vocabulary for understanding how the pieces of an AI system fit together. It organizes nine runtime responsibilities into three planes, helping practitioners place unfamiliar tools, discuss system design, and identify security controls and ownership.
 
-**Author and maintainer:** Logan Smith · **Model version:** 0.4.0
+**Author and maintainer:** Logan Smith · **Model version:** 0.4.1
 
 [Model reference](docs/model.md) · [Mapping skill](skills/map-ai-stack/SKILL.md) · [Authorship and citation](PROVENANCE.md) · [Contributing](CONTRIBUTING.md)
 
@@ -50,7 +50,7 @@ The model is open to discussion and refinement. Contributions are most useful wh
 
 ## Citation and licensing
 
-Cite **Logan Smith, AI Layer Model, version 0.4.0**, with a link to this repository or the release used. [CITATION.cff](CITATION.cff) provides citation metadata; [PROVENANCE.md](PROVENANCE.md) records authorship, development and versioning.
+Cite **Logan Smith, AI Layer Model, version 0.4.1**, with a link to this repository or the release used. [CITATION.cff](CITATION.cff) provides citation metadata; [PROVENANCE.md](PROVENANCE.md) records authorship, development and versioning.
 
 - **CC BY 4.0:** model documentation, original diagrams, examples and layer reference data.
 - **MIT:** mapping skill instructions, prompts and implementation code. The skill's bundled layer reference retains its CC BY 4.0 license.
@@ -60,3 +60,11 @@ See [LICENSE](LICENSE) for the complete file scopes and license texts. This is a
 ## Validate a contribution
 
 Run `python scripts/validate_release.py` with Python 3.12, without optimization (`-O`). The validator uses the standard library to check model consistency and release contents. The CI workflow also defines Ruff lint/format checks and Bandit static analysis.
+
+### Build release archives
+
+Run `python scripts/package_release.py --output ../ai-layer-model-release` with an output directory outside this checkout. The packager validates the model and includes only the paths declared in `scripts/validate_release.py`. It writes the full package, standalone skill and SHA256 checksums, and refuses to replace existing output files.
+
+ZIP entries are sorted and use uniform permissions and the fixed timestamp `1980-01-01 00:00:00`, the ZIP format's minimum date. This is a reproducible packaging convention; archive entry timestamps do not describe when the model was developed. Published versions and dates are listed in [CHANGELOG.md](CHANGELOG.md) and the GitHub releases.
+
+Run the release-tool regression checks with `python -m unittest discover -s tests`.
