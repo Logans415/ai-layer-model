@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
 <title id="title">AI Layer Model by Logan Smith</title>
 <desc id="desc">Nine runtime responsibilities in Substrate, Cognition and Systems, with cross-cutting controls.</desc>
-<metadata>Copyright 2026 Logan Smith. CC BY 4.0. https://github.com/Logans415/ai-layer-model. Model 0.4.0.</metadata>
+<metadata>Copyright 2026 Logan Smith. CC BY 4.0. https://github.com/Logans415/ai-layer-model. Model 0.4.1.</metadata>
 <rect width="1200" height="840" fill="#faf8f2"/>
 <text x="64" y="70" font-family="Arial,sans-serif" font-size="38" fill="#293535">AI Layer Model</text>
-<text x="64" y="112" font-family="Arial,sans-serif" font-size="21" fill="#697574">Logan Smith · Version 0.4.0</text>
+<text x="64" y="112" font-family="Arial,sans-serif" font-size="21" fill="#697574">Logan Smith · Version 0.4.1</text>
 <rect x="252" y="164" width="638" height="54" fill="#e5ebdd"/>
 <text x="270" y="200" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#256a68">L9</text>
 <text x="335" y="200" font-family="Arial,sans-serif" font-size="24" fill="#293535">Interface / delivery</text>

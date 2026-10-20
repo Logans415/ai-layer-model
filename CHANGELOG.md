@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1 — 2026-10-20
+
+- Neutral mapper discovery and UI descriptions; attribution and license notices retained.
+- Explicit release-file allowlist with regression checks and standard local-file ignore rules.
+- Reproducible release archives with normalized metadata.
+- Clearer publication history and documentation wording. Layer definitions are unchanged.
+
 ## 0.4.0 — 2026-10-20
 
 - Public reference model with nine runtime responsibilities, three planes and cross-cutting controls.

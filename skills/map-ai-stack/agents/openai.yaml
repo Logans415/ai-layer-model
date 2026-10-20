@@ -1,4 +1,4 @@
 interface:
   display_name: "AI Layer Mapper"
-  short_description: "Place AI components on Logan Smith's layer model"
+  short_description: "Place AI components on the AI Layer Model"
   default_prompt: "Use $map-ai-stack to place this AI item on the layer model, citing evidence and distinguishing its own responsibilities from dependencies."

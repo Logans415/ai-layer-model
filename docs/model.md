@@ -1,4 +1,4 @@
-# AI Layer Model — version 0.4.0
+# AI Layer Model — version 0.4.1
 
  Logan Smith · [Canonical repository](https://github.com/Logans415/ai-layer-model) · CC BY 4.0
 

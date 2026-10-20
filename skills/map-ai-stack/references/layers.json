@@ -1,7 +1,7 @@
 {
   "name": "AI Layer Model",
   "author": "Logan Smith",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "canonical_url": "https://github.com/Logans415/ai-layer-model",
   "license": "CC-BY-4.0",
   "scope": "An OSI-inspired reference model of runtime responsibilities, not a literal OSI mapping or fixed execution pipeline.",
