@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.4.0 — Unreleased
+## 0.4.0 — 2026-10-20
 
 - Public reference model with nine runtime responsibilities, three planes and cross-cutting controls.
 - Clarified OSI inspiration, variable agent composition and the companion build/training view.
