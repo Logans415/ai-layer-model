@@ -18,6 +18,10 @@
 
  Governance, identity and authorization, safety, evaluation, observability, and resource limits cross the stack. They do not become a tenth runtime layer.
 
+Identity and access management (IAM) checks can be implemented within
+the agentic control loop and at other application, tool and service
+boundaries.
+
  ## Boundaries that matter
 
  ### L1: Hardware / compute
@@ -42,11 +46,18 @@
 
 ### L6: Tools / capabilities
 
-**What can it request or do beyond generating text?** Functions, APIs, retrieval, file operations and other capabilities. The tool is the capability; its returned information may become L5 context. Enforcement remains with the application and tool.
+**What can it request or do beyond generating text?** Functions, APIs, retrieval, file operations and other capabilities. The tool is the capability; its returned information may become L5 context.
+
+Exposing a capability does not grant access to every resource or
+operation. The application, tool or underlying service is responsible
+for enforcing the caller's permissions.
 
 ### L7: Agentic control loop
 
 **What decides the next step or when to stop?** Goal-directed control, observation, decisions and termination. This is one responsibility in an agent, not the entire assembled agent or its user interface.
+
+Here, control refers to the agent's execution flow. Security controls,
+including authorization checks, can apply throughout the stack.
 
 ### L8: Orchestration
 
